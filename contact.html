@@ -1,58 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Contact</title>
-   
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="assets/css/style.css">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-        <header><h1>Yan Zhao</h1>
-            <nav class="bg-white">
-              <ul class="nav justify-content-center">
-                <li class="nav-item">
-                  <a href="./index.html" class="text-muted">About</a>
-                </li>
-                <li class="nav-item">
-                  <a href="./portfolio.html" class="text-muted">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                  <a href="./contact.html" class="text-muted">Contact</a>
-                </li>
-              </ul>
-            </nav>
-      </header>
-    <div class="container">
-        <h2> Contact </h2> <br><hr><br>
-        <div class="row">
-            <div class="col-sm-12"> <p>Name</p>
-              <div class="smallblock">&nbsp;Yan Zhao</div>
-            </div>
-        </div>
-        <div class="row">
-                <div class="col-sm-12"> <p>Email</p>
-                        <div class="smallblock">&nbsp;Yzhao322@gmail.com</div>
-                </div>
-        </div>
-        <div class="row">
-                <div class="col-sm-12"> <p>Message</p>
-                        <div class="biggerblock"></div>
-                        <buttom class="submitbuttom">Submit</buttom>
-                </div>
-        </div>
-        
-    </div> 
-    
-    <footer class="footer mt-5 py-0">
-        <div>
-          <p class= "foot">Copyright&copy;</p>
-        </div>
-      </footer>
-</body>
+  <div class="wrapper">
+    <header>
+        <h1>Yan Zhao</h1>
+      <ul class="nav justify-content-end">
    
+        <li class="nav-item">
+          <a href="./index.html" class="text-muted">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="./portfolio.html" class="text-muted">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a href="./contact.html" class="text-muted">Contact</a>
+        </li>
+      </ul>
+      </nav>
+    </header>
+    <div class="container" id="container">
+      <h2> Contact </h2> <br>
+      <hr><br>
+      <div class="row">
+        <div class="col-sm-12">
+          <p>Name</p>
+          <input class="smallblock" placeholder="Yan Zhao">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <p>Email</p>
+          <input class="smallblock" placeholder="yzhao322@gmail.com">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <p>Message</p>
+          <textarea class="biggerblock"></textarea>
+          <buttom class="submitbuttom">Submit</buttom>
+        </div>
+      </div>
+      <div class="push"></div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div>
+      <p class="foot" style="font-size: 15px">Copyright&copy;</p>
+    </div>
+  </footer>
+</body>
+<script>
+  $('body').css("background-image", "url('./assets/images/IMG_5881.JPG')").css('background-size', 'cover').css('background-repeat', 'no-repeat');
+</script>
+
 </html>
