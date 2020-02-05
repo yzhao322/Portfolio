@@ -24,9 +24,9 @@
 <body>
   <div class="wrapper">
     <header>
-        <h1>Yan Zhao</h1>
+      <h1>Yan Zhao</h1>
       <ul class="nav justify-content-end">
-        
+
         <li class="nav-item">
           <a href="./index.html" class="text-muted">About</a>
         </li>
@@ -40,31 +40,39 @@
       </nav>
     </header>
     <div class="container" id="container">
-        <h2> Portfolio </h2> <br><br>
+      <h2> Portfolio </h2> <br><br>
       <hr><br>
       <div class="row">
         <div class="col-md-6">
-         <div class="box img-fluid"><span><a href="https://yzhao322.github.io/Time-Quiz/Time-Quiz.html">Time Quiz</a></span></div>
+          <div class="box img-fluid"><span><a href="https://yzhao322.github.io/Time-Quiz/Time-Quiz.html">Time
+                Quiz</a></span></div>
         </div>
+        <div class="row">
         <div class="col-md-6">
-          <div class="box2 img-fluid"><span><a href="https://yzhao322.github.io/Hope-it-doesn-t-snow-weatherforecast/Hope-it-doesn-t-snow-weatherforecast.html">Weather Forecast</a></span></div>
+          <div class="box2 img-fluid"><span><a
+                href="https://yzhao322.github.io/Hope-it-doesn-t-snow-weatherforecast/Hope-it-doesn-t-snow-weatherforecast.html">Weather
+                Forecast</a></span></div>
         </div>
       </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="box3 img-fluid"><span><a href="https://xzengeric.github.io/Project1/project1.html">Recipe
+              Generator</a></span></div>
+      </div>
       <div class="row">
-        <div class="col-md-6">
-          <div class="box3 img-fluid"><span><a href="https://xzengeric.github.io/Project1/project1.html">Recipe Generator</a></span></div>
-        </div>
         <div class="col-md-6">
           <div class="box4 img-fluid"><span></span></div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="box5 img-fluid"><span></span></div>
-        </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="box5 img-fluid"><span></span></div>
       </div>
     </div>
-    <div class="push"></div>
+  </div>
+  <div class="push"></div>
   </div>
 
   <footer class="footer">
@@ -75,7 +83,9 @@
 </body>
 <script>
   $('body').css("background-image", "url('./assets/images/IMG_9345.JPG')").css('background-size', 'cover').css('background-repeat', 'no-repeat');
-
+  if ($(window).width() <= 1400) {
+    $('.col-md-6').removeClass('col-md-6').addClass('col-sm-12');
+  }
 </script>
 
 </html>
