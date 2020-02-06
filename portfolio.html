@@ -44,45 +44,57 @@
       <hr><br>
       <div class="row">
         <div class="col-md-6">
-          <div class="box img-fluid"><button><a href="https://yzhao322.github.io/Time-Quiz/Time-Quiz.html" style="color:aliceblue" >Time
-                Quiz</a></buttom></div>
+          <div class="box img-fluid"><button><a href="https://yzhao322.github.io/Time-Quiz/Time-Quiz.html"
+                style="color:aliceblue">Time
+                Quiz</a></buttom>
+          </div>
         </div>
 
         <div class="col-md-6">
           <div class="box2 img-fluid"><button><a
-                href="https://yzhao322.github.io/Hope-it-doesn-t-snow-weatherforecast/Hope-it-doesn-t-snow-weatherforecast.html" style="color:aliceblue">Weather
-                Forecast</a></buttom></div>
+                href="https://yzhao322.github.io/Hope-it-doesn-t-snow-weatherforecast/Hope-it-doesn-t-snow-weatherforecast.html"
+                style="color:aliceblue">Weather
+                Forecast</a></buttom>
+          </div>
         </div>
 
 
         <div class="col-md-6">
-          <div class="box3 img-fluid"><button><a href="https://xzengeric.github.io/Project1/project1.html" style="color:aliceblue">Recipe
-                Generator</a></buttom></div>
+          <div class="box3 img-fluid"><button><a href="https://xzengeric.github.io/Project1/project1.html"
+                style="color:aliceblue">Recipe
+                Generator</a></buttom>
+          </div>
         </div>
 
 
-        </div>
-        </div>
-      
-
-
-
-      <div class="push"></div>
+      </div>
     </div>
 
-    <footer class="footer">
-      <div>
-        <p class="foot" style="font-size: 15px">Copyright&copy;</p>
-      </div>
-    </footer>
+
+
+
+    <div class="push"></div>
+  </div>
+
+  <footer class="footer">
+    <div>
+      <p class="foot" style="font-size: 15px">Copyright&copy;</p>
+    </div>
+  </footer>
 </body>
 <script>
-  $('body').css("background-image", "url('./assets/images/IMG_9345.JPG')").css('background-size', 'cover').css('background-repeat', 'no-repeat');
-  if ($(window).width() <= 1400) {
-    $('.col-md-6').removeClass('col-md-6').addClass('col-sm-12');
-  }
+  $(document).ready(function () {
+    $('body').css("background-image", "url('./assets/images/IMG_9345.JPG')").css('background-size', 'cover').css('background-repeat', 'no-repeat');
+    if ($(window).width() <= 1400) {
+      $('.col-md-6').removeClass('col-md-6').addClass('col-sm-12');
+    }
+    $('header').css("background-image", "url('./assets/images/header.gif')").css('background-repeat', 'repeat').css('background-size', '100px 300px');
+    if ($(window).width() <= 641) {
+      $('ul').addClass('nav justify-content-center').removeClass('nav justify-content-end').css('list-style-type', 'none');
+      $('header').css('background-size', '600px 300px');
 
-
+    }
+  })
 </script>
 
 </html>
