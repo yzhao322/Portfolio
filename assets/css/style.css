@@ -14,13 +14,12 @@ header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url(../assets/images/header.gif);
     color: #DEDEDE;
-    margin: 0 10%;
 }
 .links{
-    margin: 5% 25%;
+    margin: 15% 35%;
 }
 .url{
-    margin: 5% 0;
+    margin: 15% 0;
 }
 .wrapper{
     min-height: 100%;
@@ -45,8 +44,8 @@ h2 {
     margin-top: 5%;
     border-style: solid;
     border-width: 2px;
-    border-color: #3b3a3a;
-    background-color:rgb(29, 27, 27);
+    border-color: #6e6e74;
+    background-color:rgb(38, 41, 43);
     opacity: 0.8;
 }
 
@@ -106,7 +105,17 @@ button{
     text-align: center;
     top: 80%;
     padding: 0 10px;
-
+  
+}
+#git-links{
+    font-size: 20px;
+    background-color: black;
+    border: 2px solid #706e6e;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    padding: 0 10px;
+    right: 3%;
 }
 .box, .box2, .box3 {
     background-size:contain;
@@ -132,7 +141,8 @@ button{
     color: rgb(238, 235, 235);
     background-color: #302f2f;
     font-size: 3px;
-    border-top: 8px solid #0c6369;
+    border-top: 2px solid #0a0a0a;
+    border-bottom: 2px solid #0a0a0a;
     text-align: center;
     margin-bottom:0;
     padding: 6px 0;
@@ -146,6 +156,7 @@ button{
         background-color: #040918;
         position: absolute;
         padding: 0 30px;
+        padding-top: 30px;
         height: 100%;
         left:0;
         top:0;
@@ -154,7 +165,7 @@ button{
     header{
         background-image: url(./assets/images/header.gif);
         position: relative;
-        padding: 10px 0;
+        padding: 30px 0;
         border: 1px solid #444343;
         
     }
@@ -164,8 +175,8 @@ button{
 
     }
     @media screen and (max-width: 630px){
-        button{
-            font-size: 10px;
+        button, #git-links{
+            font-size: 15px;
             background-color: black;
             border: 2px solid #706e6e;
             border-radius: 10px;
@@ -174,6 +185,7 @@ button{
             top: 50%;
             padding: 0 5px;
         }
+     
 
 }
 
