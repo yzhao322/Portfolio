@@ -12,12 +12,8 @@ body{
 header {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url(../assets/images/header.gif);
+    background-color: #0a0a0a;
     color: #DEDEDE;
-<<<<<<< HEAD
-=======
-   
->>>>>>> 161a6f8360a0f7d036ea4d02dc66e49d7bff5368
 }
 .links{
     margin: 15% 35%;
@@ -49,8 +45,8 @@ h2 {
     border-style: solid;
     border-width: 2px;
     border-color: #6e6e74;
-    background-color:rgb(38, 41, 43);
-    opacity: 0.8;
+    background: linear-gradient(to bottom, #242425 5%, #a4a4a7 100%);
+    opacity: 0.9;
 }
 
 hr{
@@ -94,23 +90,12 @@ p{
 .submitbuttom{
     display: inline-block;
     color: #DEDEDE;
-    background-color: #0c2269;
+    background-color: #0c6945;
     padding: 2px 15px;
     margin-top: 5px;
     border: 1px solid #dddddd;
 }
 
-button{
-    font-size: 20px;
-    background-color: black;
-    border: 2px solid #706e6e;
-    border-radius: 10px;
-    position: absolute;
-    text-align: center;
-    top: 80%;
-    padding: 0 10px;
-  
-}
 #git-links{
     font-size: 20px;
     background-color: black;
@@ -120,24 +105,6 @@ button{
     text-align: center;
     padding: 0 10px;
     right: 3%;
-}
-.box, .box2, .box3 {
-    background-size:contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 400px;
-    font-size: 20px;
-    margin: 30px 0;
-}
-.box {
-    background-image: url(../images/time-quiz.png );
-}
-.box2{
-    background-image: url(../images/weather-forecast.png);
-}
-.box3{
-    background-image: url(../images/recipe-generator.png);
-
 }
 
 .foot{
@@ -154,42 +121,5 @@ button{
 .img-fluid{
     width: 100rem;
 }
-@media screen and (min-width: 640px){
-    h1{
-        display:inline-block;
-        background-color: #040918;
-        position: absolute;
-        padding: 0 30px;
-        padding-top: 30px;
-        height: 100%;
-        left:0;
-        top:0;
-        
-    }
-    header{
-        background-image: url(./assets/images/header.gif);
-        position: relative;
-        padding: 30px 0;
-        border: 1px solid #444343;
-        
-    }
-    nav{
-        display:inline-block;
-    }
 
-    }
-    @media screen and (max-width: 630px){
-        button, #git-links{
-            font-size: 15px;
-            background-color: black;
-            border: 2px solid #706e6e;
-            border-radius: 10px;
-            position: absolute;
-            text-align: center;
-            top: 50%;
-            padding: 0 5px;
-        }
-     
-
-}
 
