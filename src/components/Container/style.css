@@ -1,0 +1,17 @@
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #6e6e74;
+    background: linear-gradient(to bottom, #242425 5%, #a4a4a7 100%);
+    opacity: 0.9;
+}
+h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #DEDEDE;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 25px;
+}
