@@ -4,7 +4,7 @@ import "./style.css";
 
 function HomeContent(props) {
   return (
-    <div className = "content">
+    <div className = "Homecontent">
     <img src="./assets/images/IMG_3893.JPG" alt="Responsive" className="img-fluid" height="300" width="350" />
     <p> Hello everyone! My name is Yan. I have a solid math backgound since I was a math major in college. I've been
     working for the past 3 years as customer service representative in banking industry. 
