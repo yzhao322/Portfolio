@@ -1,7 +1,7 @@
 # My-Portfolio
 
 
-[My portfolio page!](https://yzhao322.github.io/Portfolio/contact.html) - https://yzhao322.github.io/Portfolio/contact.html 
+[My portfolio page!](https://secure-mesa-16503.herokuapp.com/) - https://secure-mesa-16503.herokuapp.com/
 
 >1. This is myself-introduction page. The links to my LinkedIn page, Resume, Github are also in this page, right beside my picture. And on the nav bar, here's links to my portfolio and contact info. <br> <img src="demo/home.png" width="250" height="300" >
 
